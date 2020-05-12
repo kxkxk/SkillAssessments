@@ -13,7 +13,7 @@ import javax.swing.LayoutStyle;
 /*     */   public FB() {
 /*  11 */     initComponents();
 /*  12 */     setLocationRelativeTo(null);
-/*  13 */     setTitle("RESULT");
+/*  13 */     setTitle("结果");
 /*     */   }
 /*     */   private JLabel jLabel2; private JLabel jLabel3; private JLabel jLabel4; private JPanel jPanel1; private JLabel label1; private JLabel label2; private JLabel label3;
 /*     */   private JLabel label4;
@@ -33,16 +33,16 @@ import javax.swing.LayoutStyle;
 /*  30 */     setDefaultCloseOperation(3);
 /*     */     
 /*  32 */     this.jLabel1.setFont(new Font("宋体", 0, 36));
-/*  33 */     this.jLabel1.setText("Total Qustion");
+/*  33 */     this.jLabel1.setText("问题总数");
 /*     */     
 /*  35 */     this.jLabel2.setFont(new Font("宋体", 0, 36));
-/*  36 */     this.jLabel2.setText("Attempted");
+/*  36 */     this.jLabel2.setText("回答数");
 /*     */     
 /*  38 */     this.jLabel3.setFont(new Font("宋体", 0, 36));
-/*  39 */     this.jLabel3.setText("Correct");
+/*  39 */     this.jLabel3.setText("正确数");
 /*     */     
 /*  41 */     this.jLabel4.setFont(new Font("宋体", 0, 36));
-/*  42 */     this.jLabel4.setText("Incorrct");
+/*  42 */     this.jLabel4.setText("错误数");
 /*     */     
 /*  44 */     this.label1.setFont(new Font("宋体", 0, 36));
 /*     */     

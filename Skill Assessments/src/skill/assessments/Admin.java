@@ -19,7 +19,7 @@
 /*     */   public Admin() {
 /*  20 */     initComponents();
 /*  21 */     setLocationRelativeTo(null);
-/*  22 */     setTitle("Teacher Admin");
+/*  22 */     setTitle("管理");
 /*     */   }
 /*     */ 
 /*     */   
@@ -41,26 +41,26 @@
 /*  41 */     setDefaultCloseOperation(3);
 /*     */     
 /*  43 */     this.jLabel1.setFont(new Font("Agency FB", 0, 91));
-/*  44 */     this.jLabel1.setText("Hello,master.");
+/*  44 */     this.jLabel1.setText("欢迎");
 /*     */     
 /*  46 */     this.jLabel2.setFont(new Font("Agency FB", 0, 36));
-/*  47 */     this.jLabel2.setText("How can I help you...");
+/*  47 */     this.jLabel2.setText("选择你要进行的操作");
 /*     */     
-/*  49 */     this.jButton1.setText("I want to edit my questions.");
+/*  49 */     this.jButton1.setText("编辑题目");
 /*  50 */     this.jButton1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  52 */             Admin.this.jButton1ActionPerformed(evt);
 /*     */           }
 /*     */         });
 /*     */     
-/*  56 */     this.jButton2.setText("Let me see my question list.");
+/*  56 */     this.jButton2.setText("查看题目");
 /*  57 */     this.jButton2.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  59 */             Admin.this.jButton2ActionPerformed(evt);
 /*     */           }
 /*     */         });
 /*     */     
-/*  63 */     this.jButton3.setText("Users' information, please.");
+/*  63 */     this.jButton3.setText("学生信息");
 /*  64 */     this.jButton3.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  66 */             Admin.this.jButton3ActionPerformed(evt);

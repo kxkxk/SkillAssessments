@@ -49,10 +49,10 @@
 /*    */ 
 /*    */     
 /* 51 */     setDefaultCloseOperation(2);
-/* 52 */     setTitle("Stu list");
+/* 52 */     setTitle("学生列表");
 /* 53 */     setBounds(100, 100, 800, 600);
-/*    */     
-/* 55 */     String[] CN = { "name", "id" };
+/*    */     //此处可能存在问题
+/* 55 */     String[] CN = { "姓名", "ID" };
 /* 56 */     int i = 0;
 /*    */ 
 /*    */     

@@ -58,11 +58,11 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*     */     
 /*  51 */     setDefaultCloseOperation(3);
 /*     */     
-/*  53 */     this.jLabel1.setText("User name");
+/*  53 */     this.jLabel1.setText("姓名");
 /*     */     
-/*  55 */     this.jLabel2.setText("User ID");
+/*  55 */     this.jLabel2.setText("用户名");
 /*     */     
-/*  57 */     this.jLabel3.setText("Password");
+/*  57 */     this.jLabel3.setText("密码");
 /*     */     
 /*  59 */     this.jTextField1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
@@ -70,7 +70,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*     */           }
 /*     */         });
 /*     */     
-/*  65 */     this.jButton1.setText("submit");
+/*  65 */     this.jButton1.setText("提交");
 /*  66 */     this.jButton1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  68 */             register2.this.jButton1ActionPerformed(evt);

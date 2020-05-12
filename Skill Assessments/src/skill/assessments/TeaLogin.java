@@ -25,7 +25,7 @@ import javax.swing.JFrame;
 /*  22 */     initComponents();
 /*  23 */     setLocationRelativeTo(null);
 /*  24 */     setDefaultCloseOperation(2);
-/*  25 */     setTitle("Teacher Login");
+/*  25 */     setTitle("管理者登录");
 /*  26 */     this.jPasswordField1.setText("");
 /*  27 */     this.jPasswordField1.setEditable(true);
 /*     */   }
@@ -49,10 +49,10 @@ import javax.swing.JFrame;
 /*  46 */     setDefaultCloseOperation(3);
 /*     */     
 /*  48 */     this.jLabel1.setFont(new Font("宋体", 0, 48));
-/*  49 */     this.jLabel1.setText("AdminID");
+/*  49 */     this.jLabel1.setText("用户名");
 /*     */     
 /*  51 */     this.jLabel2.setFont(new Font("宋体", 0, 48));
-/*  52 */     this.jLabel2.setText("Password");
+/*  52 */     this.jLabel2.setText("密码");
 /*     */     
 /*  54 */     this.jTextField1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
@@ -61,7 +61,7 @@ import javax.swing.JFrame;
 /*     */         });
 /*     */     
 /*  60 */     this.jButton1.setFont(new Font("宋体", 0, 48));
-/*  61 */     this.jButton1.setText("sign in");
+/*  61 */     this.jButton1.setText("登录");
 /*  62 */     this.jButton1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  64 */             TeaLogin.this.jButton1ActionPerformed(evt);

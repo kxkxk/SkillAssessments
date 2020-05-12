@@ -40,7 +40,7 @@
 /*  40 */     setDefaultCloseOperation(3);
 /*     */     
 /*  42 */     this.jLabel1.setFont(new Font("宋体", 0, 14));
-/*  43 */     this.jLabel1.setText("Format error, your password must have:");
+/*  43 */     this.jLabel1.setText("格式错误，你的密码必须符合以下格式");
 /*     */     
 /*  45 */     this.jButton1.setText("OK");
 /*  46 */     this.jButton1.addActionListener(new ActionListener() {
@@ -50,13 +50,13 @@
 /*     */         });
 /*     */     
 /*  52 */     this.jLabel2.setFont(new Font("宋体", 0, 14));
-/*  53 */     this.jLabel2.setText("More than 6 characters");
+/*  53 */     this.jLabel2.setText("超过六个字符");
 /*     */     
 /*  55 */     this.jLabel3.setFont(new Font("宋体", 0, 14));
-/*  56 */     this.jLabel3.setText("Numbers");
+/*  56 */     this.jLabel3.setText("数字");
 /*     */     
 /*  58 */     this.jLabel4.setFont(new Font("宋体", 0, 14));
-/*  59 */     this.jLabel4.setText("Uppercase and lowercase letters");
+/*  59 */     this.jLabel4.setText("大小写字母");
 /*     */     
 /*  61 */     GroupLayout layout = new GroupLayout(getContentPane());
 /*  62 */     getContentPane().setLayout(layout);

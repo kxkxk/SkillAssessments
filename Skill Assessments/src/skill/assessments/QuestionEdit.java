@@ -29,7 +29,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*  23 */     initComponents();
 /*  24 */     setLocationRelativeTo(null);
 /*  25 */     setDefaultCloseOperation(2);
-/*  26 */     setTitle("Question Edit");
+/*  26 */     setTitle("编辑题目");
 /*     */   }
 /*     */   private JTextArea d; private JButton jButton1; private JLabel jLabel1; private JLabel jLabel2; private JLabel jLabel3; private JLabel jLabel4; private JLabel jLabel5;
 /*     */   private JLabel jLabel6;
@@ -63,7 +63,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*  57 */     setDefaultCloseOperation(3);
 /*     */     
 /*  59 */     this.jLabel1.setFont(new Font("宋体", 0, 24));
-/*  60 */     this.jLabel1.setText("Question");
+/*  60 */     this.jLabel1.setText("题目");
 /*     */     
 /*  62 */     this.jLabel3.setFont(new Font("宋体", 0, 24));
 /*  63 */     this.jLabel3.setText("A");
@@ -78,7 +78,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*  72 */     this.jLabel4.setText("D");
 /*     */     
 /*  74 */     this.jLabel6.setFont(new Font("宋体", 0, 24));
-/*  75 */     this.jLabel6.setText("True Ans");
+/*  75 */     this.jLabel6.setText("正确答案");
 /*     */     
 /*  77 */     this.ans.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
@@ -107,7 +107,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /* 101 */     this.jScrollPane1.setViewportView(this.jTextArea1);
 /*     */     
 /* 103 */     this.jButton1.setFont(new Font("宋体", 0, 15));
-/* 104 */     this.jButton1.setText("Submit");
+/* 104 */     this.jButton1.setText("提交");
 /* 105 */     this.jButton1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /* 107 */             QuestionEdit.this.jButton1ActionPerformed(evt);

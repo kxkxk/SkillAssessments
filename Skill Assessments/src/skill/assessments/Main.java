@@ -21,7 +21,7 @@ import javax.swing.JFrame;
 /*     */   public Main() {
 /*  21 */     initComponents();
 /*  22 */     setLocationRelativeTo(null);
-/*  23 */     setTitle("Student Assessment");
+/*  23 */     setTitle("思政答题软件");
 /*     */   }
 /*     */ 
 /*     */   
@@ -48,19 +48,19 @@ import javax.swing.JFrame;
 /*     */         });
 /*     */     
 /*  49 */     this.jLabel1.setFont(new Font("Agency FB", 0, 100));
-/*  50 */     this.jLabel1.setText("Welcome!");
+/*  50 */     this.jLabel1.setText("欢迎!");
 /*     */     
 /*  52 */     this.jLabel2.setFont(new Font("Agency FB", 0, 24));
-/*  53 */     this.jLabel2.setText("So first of all,I wanna ask if you are ...");
+/*  53 */     this.jLabel2.setText("请选择你要进行的操作");
 /*     */     
-/*  55 */     this.jButton1.setText("I am an administrator.");
+/*  55 */     this.jButton1.setText("管理");
 /*  56 */     this.jButton1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  58 */             Main.this.jButton1ActionPerformed(evt);
 /*     */           }
 /*     */         });
 /*     */     
-/*  62 */     this.jButton2.setText("User.");
+/*  62 */     this.jButton2.setText("答题");
 /*  63 */     this.jButton2.addMouseListener(new MouseAdapter() {
 /*     */           public void mouseClicked(MouseEvent evt) {
 /*  65 */             Main.this.jButton2MouseClicked(evt);

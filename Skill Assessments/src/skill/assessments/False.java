@@ -19,7 +19,7 @@
 /*     */   public False() {
 /*  20 */     initComponents();
 /*  21 */     setLocationRelativeTo(null);
-/*  22 */     setTitle("Wrong");
+/*  22 */     setTitle("出错！");
 /*  23 */     setDefaultCloseOperation(2);
 /*     */   }
 /*     */ 
@@ -38,7 +38,7 @@
 /*  38 */     setDefaultCloseOperation(3);
 /*     */     
 /*  40 */     this.jLabel1.setFont(new Font("宋体", 0, 36));
-/*  41 */     this.jLabel1.setText("Wrong ID or Passward");
+/*  41 */     this.jLabel1.setText("用户名或密码错误");
 /*     */     
 /*  43 */     this.jButton1.setFont(new Font("宋体", 0, 30));
 /*  44 */     this.jButton1.setText("OK");

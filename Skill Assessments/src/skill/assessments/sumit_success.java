@@ -44,7 +44,7 @@
 /*     */         });
 /*     */     
 /*  46 */     this.jLabel1.setFont(new Font("宋体", 0, 24));
-/*  47 */     this.jLabel1.setText("submit success!");
+/*  47 */     this.jLabel1.setText("注册成功!");
 /*     */     
 /*  49 */     GroupLayout layout = new GroupLayout(getContentPane());
 /*  50 */     getContentPane().setLayout(layout);

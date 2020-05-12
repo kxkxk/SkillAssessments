@@ -48,10 +48,10 @@
 /*    */   
 /*    */   public list2() {
 /* 50 */     setDefaultCloseOperation(2);
-/* 51 */     setTitle("Ques list");
+/* 51 */     setTitle("题目列表");
 /* 52 */     setBounds(100, 100, 800, 600);
-/*    */     
-/* 54 */     String[] CN = { "id", "text", "A", "B", "C", "D", "true answer" };
+/*    */     //此处可能存在问题
+/* 54 */     String[] CN = { "ID", "问题", "A", "B", "C", "D", "正确答案" };
 /* 55 */     int i = 0;
 /*    */ 
 /*    */     

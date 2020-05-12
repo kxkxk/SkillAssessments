@@ -38,7 +38,7 @@
 /*  38 */     setDefaultCloseOperation(3);
 /*     */     
 /*  40 */     this.jLabel1.setFont(new Font("宋体", 0, 24));
-/*  41 */     this.jLabel1.setText("Connection error, plz try again");
+/*  41 */     this.jLabel1.setText("连接出错，请重试");
 /*     */     
 /*  43 */     this.jButton1.setFont(new Font("宋体", 0, 18));
 /*  44 */     this.jButton1.setText("OK");

@@ -27,7 +27,7 @@ import javax.swing.JFrame;
 /*  25 */     initComponents();
 /*  26 */     setLocationRelativeTo(null);
 /*  27 */     setDefaultCloseOperation(2);
-/*  28 */     setTitle("Student Login");
+/*  28 */     setTitle("学生登录");
 /*  29 */     this.jPasswordField1.setText("");
 /*     */   }
 /*     */   static ResultSet res;
@@ -51,16 +51,16 @@ import javax.swing.JFrame;
 /*  49 */     setDefaultCloseOperation(3);
 /*     */     
 /*  51 */     this.jLabel3.setFont(new Font("宋体", 0, 48));
-/*  52 */     this.jLabel3.setText("UserName");
+/*  52 */     this.jLabel3.setText("用户名");
 /*     */     
 /*  54 */     this.jLabel4.setFont(new Font("宋体", 0, 48));
-/*  55 */     this.jLabel4.setText("Password");
+/*  55 */     this.jLabel4.setText("密码");
 /*     */     
 /*  57 */     this.jTextField3.setFont(new Font("宋体", 0, 36));
 /*  58 */     this.jTextField3.setToolTipText("");
 /*     */     
 /*  60 */     this.jButton2.setFont(new Font("宋体", 0, 36));
-/*  61 */     this.jButton2.setText("sign in");
+/*  61 */     this.jButton2.setText("登录");
 /*  62 */     this.jButton2.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  64 */             StuLogin.this.jButton2ActionPerformed(evt);
@@ -68,7 +68,7 @@ import javax.swing.JFrame;
 /*     */         });
 /*     */     
 /*  68 */     this.jButton1.setFont(new Font("宋体", 0, 36));
-/*  69 */     this.jButton1.setText("sign up");
+/*  69 */     this.jButton1.setText("注册");
 /*  70 */     this.jButton1.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /*  72 */             StuLogin.this.jButton1ActionPerformed(evt);

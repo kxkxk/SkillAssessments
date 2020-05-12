@@ -47,7 +47,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*  30 */       e.printStackTrace();
 /*     */     } 
 /*  32 */     initComponents();
-/*  33 */     setTitle("Question");
+/*  33 */     setTitle("答题框");
 /*  34 */     setLocationRelativeTo(null);
 /*  35 */     showquestion();
 /*     */   }
@@ -129,7 +129,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*     */     
 /* 113 */     this.jLabel5.setText("C");
 /*     */     
-/* 115 */     this.jButton5.setText("End Quiz");
+/* 115 */     this.jButton5.setText("结束答题");
 /* 116 */     this.jButton5.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /* 118 */             Question.this.jButton5ActionPerformed(evt);
@@ -137,16 +137,16 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*     */         });
 /*     */     
 /* 122 */     this.jLabel6.setFont(new Font("宋体", 0, 18));
-/* 123 */     this.jLabel6.setText("Ques:");
+/* 123 */     this.jLabel6.setText("问题：");
 /*     */     
-/* 125 */     this.jButton7.setText("Pre");
+/* 125 */     this.jButton7.setText("上一题");
 /* 126 */     this.jButton7.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /* 128 */             Question.this.jButton7ActionPerformed(evt);
 /*     */           }
 /*     */         });
 /*     */     
-/* 132 */     this.jButton6.setText("Next");
+/* 132 */     this.jButton6.setText("下一题");
 /* 133 */     this.jButton6.addActionListener(new ActionListener() {
 /*     */           public void actionPerformed(ActionEvent evt) {
 /* 135 */             Question.this.jButton6ActionPerformed(evt);
@@ -154,7 +154,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 /*     */         });
 /*     */     
 /* 139 */     this.myanswer.setFont(new Font("宋体", 0, 18));
-/* 140 */     this.myanswer.setText("My Ans:");
+/* 140 */     this.myanswer.setText("答案：");
 /*     */     
 /* 142 */     GroupLayout jPanel1Layout = new GroupLayout(this.jPanel1);
 /* 143 */     this.jPanel1.setLayout(jPanel1Layout);
